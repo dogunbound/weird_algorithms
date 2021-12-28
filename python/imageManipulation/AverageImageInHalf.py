@@ -18,7 +18,7 @@ def main():
                             int(image[x*2][y*2+1][color])+
                             int(image[x*2+1][y*2+1][color]))/4)
 
-    cv2.imwrite('cutInHalf'+options.load_images, newImage);
+    cv2.imwrite('c'+options.load_images, newImage);
 
 
 if __name__ == "__main__":
